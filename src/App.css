@@ -1,6 +1,23 @@
+.characterCard{
+  margin:5pt;
+  padding:5pt;
+min-width:40pt;}
+.characterCard>div{
+  border-radius:8pt;
+  background-color: #eedcc4;
+}
+.characterCard img{width:80pt;
+margin:5pt;}
+h1{padding-top:5pt;font-size:12pt;
+max-width:80pt;}
+h2{font-size:9pt;}
+
 .App {
   text-align: center;
-}
+  display:flex;
+ flex-wrap: wrap;
+  justify-content: center;
+align-items:center}
 
 .App-logo {
   height: 40vmin;
