@@ -17,19 +17,17 @@ export default function CharacterCard(props:Character){
     let previousNumberString:string;
     let counter:number=0;
     episodeNumbers.forEach(e=>{
-
         if( counter==0){
             range += e;
-        }else if((parseInt(e)-1)===( parseInt(previousNumberString))){
-            if(parseInt(episodeNumbers[counter+1])>parseInt(e)+1||counter+1==episodeNumbers.length){
+        }else if((parseInt(e)-1)===(parseInt(previousNumberString))){
+            if(parseInt(episodeNumbers[counter+1])>parseInt(e)+1||counter+1===episodeNumbers.length){
                 range += "-"+e;
             }
-
         }else{
             range += "|" +e;
         }
         previousNumberString=e;
-            counter++;
+        counter++;
     })
 
     return (
