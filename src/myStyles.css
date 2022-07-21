@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.characterCard {
+    padding: 2pt;
+    width: 100pt;
+    border-radius: 8pt;
+    border: 1px black solid;
+    margin:2pt;
+}
+
+.characterCard h1 {
+    padding-top: 5pt;
+    font-size: 12pt;
+}
+
+.characterCard > div {
+    font-size: 9pt;
+}
+
+.characterCard img {
+    width: 90%;
+    margin: 5pt;
+}
+
+
+
